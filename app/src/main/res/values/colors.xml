@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -11,8 +11,8 @@
     <!-- My colors -->
     <color name="blue_primary">#00BFFF</color>
     <color name="blue_secondary">#ADD8E6</color>
-    <color name="blue_card">#E0FFFF</color>
+    <color name="blue_card">#F0FFFF</color>
     <color name="grey_primary">#A5AAB5</color>
-    <color name="grey_2_primary">#E8E9EC</color>
-    <color name="text_color">#363636</color>
+    <color name="dark_grey">#363636</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/blue_primary</color>
 </resources>
